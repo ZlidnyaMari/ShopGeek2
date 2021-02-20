@@ -1,15 +1,15 @@
 .product-title {
     text-align: center;
-    padding-top: 95px;
-    padding-bottom: 50px;
 }
 .product-title-h2 {
     @include font (normal, normal, 30px, $ColorBackground);
-    margin: 0;
+    margin-bottom: 0;
+    margin-top: 95px;
 }
 .product-title-text {
     @include font (normal, normal, 14px, #9F9F9F);
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 .product {
     display: flex;
@@ -78,8 +78,6 @@
 .product-button {
     display: flex;
     justify-content: center;
-    padding-bottom: 90px;
-    padding-top: 25px;
 }
 .product-button1 {
     @include font (normal, normal, 16px, #F26376);
@@ -90,6 +88,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 90px;
+    margin-top: 25px;
         &:hover {
             @include hover-btn;
         }

@@ -20,8 +20,8 @@
 .accesories {
     background: grey;
     background-image: url(../img/4-ACCESORIES.jpg);
-    width: 1142px;
-    height: 180px;
+    width: 100%;
+    min-height: 180px;
     margin-top: 25px;
     display: flex;
     justify-content: center;
