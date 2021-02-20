@@ -55,7 +55,7 @@
   
   .promo-title {
     border-left: 15px solid #F16D7F;
-    padding-right: 70px;
+    margin: 5%;
   }
   
   .promo-heading {
@@ -74,6 +74,7 @@
     color: #222222;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0;
+    white-space:nowrap;
   }
   
   .colortext {
@@ -317,8 +318,8 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-bottom: 90px;
-    padding-top: 25px;
+    margin-bottom: 90px;
+    margin-top: 25px;
   }
   
   .product-button1 {
@@ -356,12 +357,12 @@
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding-top: 104px;
-    padding-bottom: 92px;
   }
   
   .feature-info {
     text-align: center;
+    margin-top: 104px;
+    margin-bottom: 92px;
   }
   
   .feature-title {
@@ -1235,4 +1236,6 @@
     line-height: 1.8;
     list-style-type: none;
   }
-  /*# sourceMappingURL=style.css.map */
+
+  
+  
