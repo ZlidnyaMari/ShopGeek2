@@ -107,9 +107,16 @@ body {
       display: none;
     }
     .categories {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    .category {
+        width: 232px;
+        min-height: 167px; 
+    }
+    .accesories {
+        min-height: 116px;
     }
     .footer-icons {
       flex-direction: column-reverse;
@@ -124,4 +131,9 @@ body {
     .paginationX {
       display: none;
     }
+    .categories {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 }

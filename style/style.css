@@ -1322,6 +1322,13 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .category {
+    width: 232px;
+    min-height: 167px;
+  }
+  .accesories {
+    min-height: 116px;
+  }
   .footer-icons {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1342,6 +1349,18 @@ body {
 @media (max-width: 400px) {
   .paginationX {
     display: none;
+  }
+  .categories {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
