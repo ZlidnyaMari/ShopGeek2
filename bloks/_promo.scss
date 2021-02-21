@@ -12,7 +12,8 @@
 }
 .promo-title {
     border-left: 15px solid $ColorButton;
-    padding-right: 70px;
+    margin: 5%;
+    white-space:nowrap;
 }
 .promo-heading {
     @include font (normal, 900, 48px, $ColorBackground);

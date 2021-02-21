@@ -59,7 +59,8 @@ body {
 
 .promo-title {
   border-left: 15px solid #F16D7F;
-  padding-right: 70px;
+  margin: 5%;
+  white-space: nowrap;
 }
 
 .promo-heading {
@@ -234,6 +235,7 @@ body {
   margin-bottom: 30px;
   overflow: hidden;
   position: relative;
+  margin-right: 15px;
 }
 
 .product-catalog:hover {
