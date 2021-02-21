@@ -2,12 +2,12 @@
     background-color: $ColorBackground;
     display: flex;
     justify-content: space-around;
-    padding-top: 104px;
-    padding-bottom: 92px;
     
 }
 .feature-info {
    text-align: center;
+   margin-top: 104px;
+   margin-bottom: 92px;
 }
 .feature-title {
     @include font (normal, normal, 20px, #FBFBFB);

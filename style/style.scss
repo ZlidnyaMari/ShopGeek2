@@ -10,8 +10,8 @@ $ColorBackground: #222222;
 
 @mixin categories {
     background: grey;
-    width: 360px;
-    height: 260px;
+    width: 31%;
+    min-height: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,14 +47,93 @@ body {
     padding: 0 calc(50% - 1140px / 2);
 }
 
-@import "../bloks/header";
-@import "../bloks/promo";
-@import "../bloks/categories";
-@import "../bloks/product";
-@import "../bloks/feature";
-@import "../bloks/footer";
-@import "../bloks/navigation-pagination";
-@import "../bloks/about-product";
-@import "../bloks/cart";
-@import "../bloks/registration";
+@import "bloks/header";
+@import "bloks/promo";
+@import "bloks/categories";
+@import "bloks/product";
+@import "bloks/feature";
+@import "bloks/footer";
+@import "bloks/nav-pag";
+@import "bloks/about-product";
+@import "bloks/cart";
+@import "bloks/registration";
 
+@media(max-width:1180px) {
+    .container {
+      padding: 0 15px;
+    }
+}
+@media(max-width:1160px) {
+    .product {
+      justify-content: center;
+    }
+  }
+@media(max-width:950px) {
+    .promo-img {
+      max-height: 386px;
+      max-height: 386px;
+      margin: 0;
+    }
+    .promo-heading {
+      font-size: 44px;
+    }
+    .promo-text {
+      font-size: 24px;
+    }
+    .feature {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .feature-info {
+      margin: 30px;
+    }
+    .footer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer-form {
+      padding: 0;
+      margin: 90px;
+    }
+  }
+@media(max-width:730px) {
+    .promo {
+      text-align: center;
+      height: 363px;
+    }
+    .promo-img {
+      display: none;
+    }
+    .categories {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    .category {
+        width: 232px;
+        min-height: 167px; 
+    }
+    .accesories {
+        min-height: 116px;
+    }
+    .footer-icons {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer-socials {
+      margin: 15px;
+    }
+}
+@media(max-width: 400px) {
+    .paginationX {
+      display: none;
+    }
+    .categories {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+}
