@@ -47,16 +47,16 @@ body {
     padding: 0 calc(50% - 1140px / 2);
 }
 
-@import "../bloks/header";
-@import "../bloks/promo";
-@import "../bloks/categories";
-@import "../bloks/product";
-@import "../bloks/feature";
-@import "../bloks/footer";
-@import "../bloks/nav-pag";
-@import "../bloks/about-product";
-@import "../bloks/cart";
-@import "../bloks/registration";
+@import "bloks/header";
+@import "bloks/promo";
+@import "bloks/categories";
+@import "bloks/product";
+@import "bloks/feature";
+@import "bloks/footer";
+@import "bloks/nav-pag";
+@import "bloks/about-product";
+@import "bloks/cart";
+@import "bloks/registration";
 
 @media(max-width:1180px) {
     .container {
