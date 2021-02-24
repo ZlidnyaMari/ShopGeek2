@@ -115,6 +115,21 @@ body {
       padding: 0;
       margin: 90px;
     }
+    .registration-info {
+      & h2 {
+          @include font (normal, normal, 16px, #000000);
+          margin-top: 50px;
+          margin-bottom: 40px; 
+      }
+      & p {
+          @include font (normal, normal, 16px, #000000);
+      }
+      & ul {
+          @include font (normal, normal, 16px, #000000);
+          margin-top: 30px;
+          line-height: 2;
+      }
+  }
   }
 @media(max-width:730px) {
     .promo {
@@ -173,7 +188,12 @@ body {
      align-items: center;
     }
     .cart-button a {
-      margin-right: 10px;
+      margin-right: 5px;
+    }
+    .registration {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 }
 @media(max-width: 570px) {
@@ -211,4 +231,8 @@ body {
       width: 300px;
       min-height: 380px;
     }
+    .cart-button-btn {
+      padding: 10px 15px;
+      font-size: 13px;
   }
+}

@@ -1339,6 +1339,28 @@ body {
     padding: 0;
     margin: 90px;
   }
+  .registration-info h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .registration-info p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+  }
+  .registration-info ul {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 30px;
+    line-height: 2;
+  }
 }
 
 @media (max-width: 730px) {
@@ -1425,7 +1447,19 @@ body {
             align-items: center;
   }
   .cart-button a {
-    margin-right: 10px;
+    margin-right: 5px;
+  }
+  .registration {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1478,6 +1512,10 @@ body {
   .carousel img {
     width: 300px;
     min-height: 380px;
+  }
+  .cart-button-btn {
+    padding: 10px 15px;
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */
