@@ -235,7 +235,7 @@ body {
   margin-bottom: 30px;
   overflow: hidden;
   position: relative;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .product-catalog:hover {
@@ -1262,6 +1262,11 @@ body {
 
 @media (max-width: 1160px) {
   .product {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .product-list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
