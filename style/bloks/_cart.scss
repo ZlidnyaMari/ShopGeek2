@@ -21,7 +21,7 @@
     }
 }
 .cart-product {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     
 }
@@ -73,11 +73,11 @@
        }
 }
 .cart-info {
-    margin-left: 50px; 
-     & h2 {
+    margin-left: 50px;
+} 
+.cart-title {
         @include font (normal, 300, 16px, $ColorBackground);  
      }
-}
 .cart-form {
     margin-bottom: 60px;
 }
