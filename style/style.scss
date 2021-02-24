@@ -126,6 +126,20 @@ body {
     .footer-socials {
       margin: 15px;
     }
+    .carousel {
+      max-width: 768px;
+      min-height: 624px;
+    }
+    .carousel img {
+      width: 466px;
+      min-height: 565px;
+    }
+}
+@media(max-width: 570px) {
+  .carousel img {
+    width: 365px;
+    min-height: 445px;
+  }
 }
 @media(max-width: 450px) {
     .paginationX {
@@ -151,5 +165,9 @@ body {
     }
     .list summary {
       display: none;
+    }
+    .carousel img {
+      width: 300px;
+      min-height: 380px;
     }
   }

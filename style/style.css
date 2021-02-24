@@ -833,6 +833,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0;
 }
 
 .about-product-navigation a {
@@ -919,7 +920,7 @@ body {
 
 .line-two {
   text-align: center;
-  width: 642px;
+  max-width: 642px;
   height: 1px;
   background-color: #EAEAEA;
   border-color: transparent;
@@ -1354,6 +1355,21 @@ body {
   .footer-socials {
     margin: 15px;
   }
+  .carousel {
+    max-width: 768px;
+    min-height: 624px;
+  }
+  .carousel img {
+    width: 466px;
+    min-height: 565px;
+  }
+}
+
+@media (max-width: 570px) {
+  .carousel img {
+    width: 365px;
+    min-height: 445px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -1394,6 +1410,10 @@ body {
   }
   .list summary {
     display: none;
+  }
+  .carousel img {
+    width: 300px;
+    min-height: 380px;
   }
 }
 /*# sourceMappingURL=style.css.map */
