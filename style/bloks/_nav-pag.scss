@@ -2,16 +2,20 @@
     background-color: #F8F3F4;
     display: flex;
     justify-content: space-between;
-    padding-top:60px;
-    padding-bottom: 60px;
 }
 .navigation-title {
     @include font (normal, normal, 24px, #F16D7F);
-    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    white-space:nowrap
 }
 .breadcrumbs {
     list-style: none;
-    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    white-space: nowrap;
+    padding: 0;
+
 }
 .breadcrumbs li {
     display:inline-block;
@@ -24,14 +28,14 @@
 .nav {
     display: flex;
     justify-content: flex-start;
-    padding-top: 34px;
-    padding-bottom: 50px;
 }
 .list {
     position: relative;
-    margin-right: 40px;
     width: 360px;
+    margin-top: 34px;
+    margin-bottom: 50px;
         & summary {
+            white-space: nowrap;
             border: none;
             outline: none;
             @include font (normal, 600, 14px, #000000);
@@ -88,6 +92,8 @@
     position: relative;
     min-width: 150px;
     margin-left: 10px;
+    margin-top: 34px;
+    margin-bottom: 50px;
         & summary {
             border: none;
             outline: none;
@@ -104,6 +110,8 @@
     position: relative;
     min-width: 80px;
     margin-left: 10px;
+    margin-top: 34px;
+    margin-bottom: 50px;
         & summary {
             border: none;
             outline: none;
@@ -120,6 +128,8 @@
     position: relative;
     min-width: 80px;
     margin-left: 10px;
+    margin-top: 34px;
+    margin-bottom: 50px;
         & summary {
             border: none;
             outline: none;

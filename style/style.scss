@@ -127,7 +127,7 @@ body {
       margin: 15px;
     }
 }
-@media(max-width: 400px) {
+@media(max-width: 450px) {
     .paginationX {
       display: none;
     }
@@ -135,5 +135,21 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      }
-}
+    }
+    .navigation {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; 
+    }
+    .breadcrumbs {
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+    .navigation-title {
+      margin-bottom: 40px;
+      margin-top: 25px;
+    }
+    .list summary {
+      display: none;
+    }
+  }
