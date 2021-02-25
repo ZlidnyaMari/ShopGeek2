@@ -224,8 +224,12 @@ body {
       margin-bottom: 40px;
       margin-top: 25px;
     }
-    .list summary {
+    .list-filter-nav {
       display: none;
+    }
+    #svg-filtr {
+      width: 50px;
+      height: 40px;
     }
     .carousel img {
       width: 300px;
