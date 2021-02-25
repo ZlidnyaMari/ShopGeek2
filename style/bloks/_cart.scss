@@ -38,6 +38,7 @@
         display: inline-block;
         transform-origin: bottom;
         transition: 1s;
+        white-space: nowrap;
 
      &:hover {
         @include hover-btn;
@@ -60,6 +61,7 @@
       }
        & img {
         float: right;
+        padding-left: 5px;
        }
        & input {
            width: 44px;
@@ -69,7 +71,8 @@
        } 
        & p {
         @include font (normal, normal, 22px, #575757);
-        margin: 0 auto;  
+        margin: 0 auto;
+        white-space: nowrap;  
        }
 }
 .cart-info {
