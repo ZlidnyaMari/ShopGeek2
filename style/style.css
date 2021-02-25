@@ -1255,6 +1255,73 @@ body {
   list-style-type: none;
 }
 
+#menu {
+  display: none;
+}
+
+.menu-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 75px;
+  left: 0px;
+  right: 0px;
+  min-height: 764px;
+  display: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 2;
+}
+
+#menu:checked ~ .menu-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-nav {
+  background-color: #FFFFFF;
+  width: 232px;
+  padding: 20px;
+  position: relative;
+}
+
+.icon-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #6F6E6E;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+}
+
+.menu-heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #F16D7F;
+}
+
+.menu-item {
+  padding: 5px;
+}
+
 @media (max-width: 1180px) {
   .container {
     padding: 0 15px;
